@@ -10,3 +10,7 @@
 .card-title:hover{
     color: #2ec597;
 }
+
+.footer-link>li>a:hover{
+    color: #2ec597;
+}
