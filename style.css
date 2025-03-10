@@ -1,0 +1,12 @@
+
+
+.nav-link>li>a:hover{
+    background-color: white;
+    border-radius: 0;
+    color:#2d314d;
+    border-bottom:3px solid #31d35c;
+}
+
+.card-title:hover{
+    color: #2ec597;
+}
