@@ -19,37 +19,50 @@
     <header>
         <!--navbar-->
         <nav class="">
-            <div class="navbar bg-base-100 px-8 lg:px-24">
-                <div class="navbar-start">
-                  <img src="images/logo.svg" alt="">
-                </div>
-                <div class="navbar-center hidden lg:flex">
-                  <ul class="nav-link menu menu-horizontal px-1 ">
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="index.html">Blog</a></li>
-                    <li><a href="index.html">Contact</a></li>
-                    <li><a href="index.html">Careers</a></li>
-                  </ul>
-                </div>
-                <div class="navbar-end  ">
-                  <button class=" btn rounded-4xl px-8 bg-linear-to-r from-emerald-500 to-sky-400 to-90% text-white">Request Invite</button>
-                </div>
+          <div class="navbar bg-base-100 px-8 lg:px-24 ">
+            <div class="navbar-start">
+              <img src="images/logo.svg" alt="">
+              <div class="dropdown">
                 <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
-                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"> <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /> </svg>
                 </div>
+                <ul
+                  tabindex="0"
+                  class="nav-link menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="index.html">About</a></li>
+                  <li><a href="index.html">Contact</a></li>
+                  <li><a href="index.html">Blog</a></li>
+                  <li><a href="index.html">Careers</a></li>
+                </ul>
               </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="nav-link menu menu-horizontal px-1">
+                <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">About</a></li>
+                    <li><a href="index.html">Contact</a></li>
+                    <li><a href="index.html">Blog</a></li>
+                    <li><a href="index.html">Careers</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end ">
+              <button class=" btn rounded-4xl px-8 bg-linear-to-r from-emerald-500 to-sky-400 to-90% text-white">Request Invite</button>
+            </div>
+          </div>   
         </nav>
+       
     </header>
     <main>
       <!--hero section-->
       <section class="bg-slate-100 flex flex-col-reverse lg:flex-row justify-center lg:justify-between items-center lg:pl-24 pb-8 lg:pb-0">
         <div class="justify-items-center lg:justify-items-start px-8 lg:px-0 pt-10 lg:pt-0">
           <h1 class="text-5xl font-normal leading-14 ">Next generation <br>digital banking </h1>
-          <p class="leading-6 py-7 pl-5 lg:pl-0 lg:pr-24 ">Take your financial life online.Your EasyBank account  will be a one-stop-shop for spending, saving,budgeting, investing,and much more.</p>
-          <button class="btn rounded-4xl px-8 bg-linear-to-r from-emerald-500 to-sky-400 to-90% text-white">Request Invite</button>
+          <p class="leading-6 py-7 pl-5 lg:pl-0 lg:pr-16 ">Take your financial life online.Your EasyBank account will be a one-stop-shop for spending, saving,budgeting, investing,and much more.</p>
+          <button class="btn rounded-4xl px-8 bg-linear-to-r from-emerald-500 to-sky-400 to-90% text-white ">Request Invite</button>
         </div>
         <div>
-          <img class=" lg:pl-28 " src="images/bg-intro-desktop.svg" alt="">
+          <img class=" lg:pl- w-full" src="images/bg-intro-desktop.svg" alt="">
         </div>
       </section>
       <section class="w-80 lg:w-2/5 absolute top-16 right-14 lg:right-8 ">
@@ -57,9 +70,11 @@
       </section>
 
       <!--reason-->
-      <section class="bg-slate-50 px-8 lg:px-24 lg:py-16">
-        <h2 class="text-4xl pl-5 lg:pl-0">Why choose Easybank?</h2>
-        <p class="py-5 ">We leverage Open Banking to turn your bank account into your financial hub. <br>Your finances like never before.</p>
+      <section class="bg-slate-50 px-10 lg:px-24 py-5 lg:py-16">
+        <div class=" ">
+          <h2 class="text-3xl lg:text-4xl pl-7 lg:pl-0">Why choose EasyBank?</h2>
+        <p class="py-5 pl-3 lg:pl-0 lg:pr-96">We leverage Open Banking to turn your bank account into your financial hub. Your finances like never before.</p>
+        </div>
         
         <div class="flex flex-col lg:flex-row   pt-9  gap-5 " >
           <div class="justify-items-center lg:justify-items-start">
@@ -90,10 +105,10 @@
       </section>
 
       <!--articles-->
-      <section class="bg-slate-100 px-8 lg:px-24 pb-10  ">
+      <section class="bg-slate-100 px-10 lg:px-24 pb-10  ">
         <h2 class="text-4xl py-10 flex justify-center lg:justify-start items-center">Latest Articles</h2>
 
-        <div class="flex flex-col lg:flex-row gap-8   ">
+        <div class="flex flex-col lg:flex-row gap-8 lg:gap-5  ">
           <div class="card bg-base-100  lg:w-96 rounded-none ">
             <figure>
               <img
@@ -182,7 +197,7 @@
 
       <div class="justify-items-center">
         <div class="pt-5 lg:pt-0 lg:pl-12 ">
-          <button class="btn rounded-4xl shadow-none  border-none px-7 bg-linear-to-r from-emerald-500 to-sky-400 to-90% text-white">Request Invite</button>
+          <button class="btn rounded-4xl shadow-none  border-none px-7 bg-linear-to-r from-emerald-500 to-sky-400 to-90% text-white ">Request Invite</button>
         </div>
         <aside>
           <p class="text-white text-sm pt-7">© Easybank. All Rights Reserved</p>
@@ -192,4 +207,4 @@
 
     <script src="script.js"></script>
 </body>
-</html>
+</html> 
