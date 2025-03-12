@@ -7,6 +7,9 @@
     border-bottom:3px solid #31d35c;
 }
 
+
+
+
 .card-title:hover{
     color: #2ec597;
 }
@@ -14,3 +17,4 @@
 .footer-link>li:hover{
     color: #2ec597;
 }
+
